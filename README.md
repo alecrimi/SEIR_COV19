@@ -5,4 +5,4 @@ The SEIR models an infection on people between four states: susceptible (S), exp
 The SEIR differs from the SIR model in the addition of a latency period. Individuals who are exposed (E) have had contact with an infected person, but are not themselves infectious.
 
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/CompartmentalModel.jpg) 
-For more info : <a href="https://github.com/alecrimi/SEIR_COV19/blob/master/CHITNIS_017-05-08-MMCVECID-Intro.pdf" target="_blank">PDF.</a>
+For more info : <a href="http://indico.ictp.it/event/7960/session/3/contribution/19/material/slides/0.pdf" target="_blank">PDF.</a>
