@@ -11,7 +11,7 @@ For more info on the theory: <a href="http://indico.ictp.it/event/7960/session/3
  
 Here is the effect of the lockdown in terms of recovery of the epidemic, I am using the SIR/SIER implementation of Matt Ravenhall & Yran Jing.
 Before <a href="https://en.wikipedia.org/wiki/2020_Hubei_lockdowns"> curfew policy implementations </a>, and after. There is a t least a difference of 100 days more of epidemics regardless of the r0. 
-Future works, cost effetive analysis on the curfew (opportunity cost and productivity loss) VS no-curfew (productivity loss due to illness and financial healthcare burden).
+Future works, cost effetive analysis on the curfew (opportunity cost and productivity loss) VS no-curfew (productivity loss due to illness and financial healthcare burden). The model does not take into account the weakening of the virus with the coming Spring/Summer.
 
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/before.png) 
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/after.png) 
