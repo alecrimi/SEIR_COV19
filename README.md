@@ -16,3 +16,4 @@ Future works, cost effetive analysis on the curfew (opportunity cost and product
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/before.png) 
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/after.png) 
  
+The code also estimate R0. For Wuhan seems R0=2.9 for Italy R0=2.1. 
