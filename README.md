@@ -16,8 +16,10 @@ Future works, cost effetive analysis on the curfew (opportunity cost and product
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/before.png) 
 ![alt text](https://github.com/alecrimi/SEIR_COV19/blob/master/after.png) 
  
-The code also estimate R0. For Wuhan seems R0=2.9 for Italy R0=2.1. 
+The code also estimate R0. For Wuhan seems R0=2.9 for Italy R0=2.1 at the moment I writing this file. 
 
 Change those variables to personalize
+
 t = np.asarray([0, 42, 43, 44, 45, 46])  # time
+
 I = np.asarray([1,198,218,320,478,639]) # number of official confirmed cases
