@@ -7,8 +7,7 @@ The SEIR differs from the SIR model in the addition of a latency period. Individ
 <p align="center">
 <img  align="center" src="https://github.com/alecrimi/SEIR_COV19/blob/master/CompartmentalModel.jpg" height="250">
 </p>
-For more info on the theory: <a href="http://indico.ictp.it/event/7960/session/3/contribution/19/material/slides/0.pdf" target="_blank">SwissTPH material</a>, or the  <a href="https://ethz.ch/content/dam/ethz/special-interest/usys/ibz/theoreticalbiology/education/learningmaterials/701-1424-00L/sir.pdf" target="_blank">  ETH-tutorial on R </a>
-Or read O. Diekmann, H. Heesterbeek, and T. Britton, <a href="https://www.jstor.org/stable/j.cttq9530" target="_blank"> Mathematical Tools for Understanding Infectious Disease Dynamics. Princeton Series in Theoretical and Computational Biology </a>
+For more info on the theory: <a href="http://indico.ictp.it/event/7960/session/3/contribution/19/material/slides/0.pdf" target="_blank">SwissTPH material</a>,   the  <a href="https://ethz.ch/content/dam/ethz/special-interest/usys/ibz/theoreticalbiology/education/learningmaterials/701-1424-00L/sir.pdf" target="_blank">  ETH-tutorial on R </a>, or read O. Diekmann, H. Heesterbeek, and T. Britton, <a href="https://www.jstor.org/stable/j.cttq9530" target="_blank"> Mathematical Tools for Understanding Infectious Disease Dynamics. Princeton Series in Theoretical and Computational Biology </a>
  
 Here is the effect of the lockdown in terms of recovery of the epidemic, I am using the SIR/SIER implementation of Matt Ravenhall & Yran Jing.
 Before <a href="https://en.wikipedia.org/wiki/2020_Hubei_lockdowns"> curfew policy implementations </a>, and after. There is a t least a difference of 100 days more of epidemics regardless of the r0. 
