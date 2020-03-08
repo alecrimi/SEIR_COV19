@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
 import pandas
-from SIR_model import SIR
-from SIR_model import SIR
+from SIR_model import SIR # From Yran Jing
+from SIR_model import SIR # From Yran Jing
 from matplotlib import pyplot as plt
-from helper_fun_epi_model import *
+from helper_fun_epi_model import *  # From Yran Jing
 import scipy.optimize as optimization
 import warnings
 warnings.filterwarnings('ignore')
@@ -13,6 +13,7 @@ warnings.filterwarnings('ignore')
 Data from Chinese Center for Disease Control and Prevention (DOC) 
 """
 # 2019-12-08 is the first date, when find the first case. 
+##### CHANGE DATA HERE ######
 t = np.asarray([0, 42, 43, 44, 45, 46])  # time
 I = np.asarray([1,198,218,320,478,639]) # number of official confirmed cases
 
@@ -56,7 +57,7 @@ def main():
     print("\n\nBaseline after 23 Jan")
     case1 = Estimate_Wuhan_Outbreak(Est, k = 1, N=9000000,
                     E0 = 4109 * 5, I0 = 4109, R0 = (175+224), T=7, econ = 120)
-    result2 = case1._run_SIER('Forecat 2019-nCoV Outbreak in Wuhan after 2020-02-02 using offical number',
+    result2 = case1._run_SIER('Forecast 2019-nCoV Outbreak in Wuhan after 2020-02-02 using offical number',
             'Wuhan Population','Days after 2020-02-02', death_rate = 0.03, show_Sus = False)
     
     
@@ -80,7 +81,7 @@ def main():
     
     case2 = Estimate_Wuhan_Outbreak(Est, k = 1, N=9000000,
                     E0 = E0, I0 = I0, R0 = R0, T=7, econ = 120)
-    result3 = case2._run_SIER('Case 1: Forecat 2019-nCoV Outbreak in Wuhan after 2020-01-23 using estimated data',
+    result3 = case2._run_SIER('Case 1: Forecast 2019-nCoV Outbreak in Wuhan after 2020-01-23 using estimated data',
             'Wuhan Population','Days after 2020-01-23', death_rate = 0.03, show_Sus = False)
     
     
@@ -94,7 +95,7 @@ def main():
     
     case2 = Estimate_Wuhan_Outbreak(Est, k = 1, N=9000000,
                     E0 = 4109 * 5, I0 = 4109, R0 = (175+224), T=7, econ = 120)
-    result3 = case2._run_SIER('Case 2: Forecat 2019-nCoV Outbreak in Wuhan after 2020-02-02 using offical number',
+    result3 = case2._run_SIER('Case 2: Forecast 2019-nCoV Outbreak in Wuhan after 2020-02-02 using offical number',
             'Wuhan Population','Days after 2020-02-02', show_Sus = False, death_rate = 0.03)
     
     
@@ -110,7 +111,7 @@ def main():
     
     case2 = Estimate_Wuhan_Outbreak(Est, k = 2, N=9000000,
                     E0 = 4109 * 5, I0 = 4109, R0 = (175+224), T=7, econ = 120)
-    result3 = case2._run_SIER('Case 3: Forecat 2019-nCoV Outbreak in Wuhan after 2020-02-02 using offical number',
+    result3 = case2._run_SIER('Case 3: Forecast 2019-nCoV Outbreak in Wuhan after 2020-02-02 using offical number',
             'Wuhan Population','Days after 2020-02-02', show_Sus = False, death_rate = 0.03)
     
     
@@ -131,7 +132,7 @@ def main():
     
     case2 = Estimate_Wuhan_Outbreak(Est, k = 1, N=9000000,
                     E0 = E0, I0 = I0, R0 = R0, T=7, econ = 120)
-    result3 = case2._run_SIER('Case 4: Forecat 2019-nCoV Outbreak in Wuhan after 2020-01-23 using estimated data',
+    result3 = case2._run_SIER('Case 4: Forecast 2019-nCoV Outbreak in Wuhan after 2020-01-23 using estimated data',
             'Wuhan Population','Days after 2020-01-23', show_Sus = False, death_rate = 0.03,)
     
 
@@ -152,7 +153,7 @@ def main():
     
     case2 = Estimate_Wuhan_Outbreak(Est, k = 2, N=9000000,
                     E0 = E0, I0 = I0, R0 = R0, T=7, econ = 120)
-    result3 = case2._run_SIER('Case 5: Forecat 2019-nCoV Outbreak in Wuhan after 2020-01-23 using estimated data',
+    result3 = case2._run_SIER('Case 5: Forecast 2019-nCoV Outbreak in Wuhan after 2020-01-23 using estimated data',
             'Wuhan Population','Days after 2020-01-23', show_Sus = False, death_rate = 0.03,)
 
     
