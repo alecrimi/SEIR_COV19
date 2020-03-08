@@ -25,4 +25,4 @@ t = np.asarray([0, 42, 43, 44, 45, 46])  # time
 I = np.asarray([1,198,218,320,478,639]) # number of official confirmed cases
 
 To account for seasonal factor (as it has been hypothetized that the virus dies at 26-28 degree Celsius), the *beta* parameter show attenuated as in the equation 2 of <a href="https://www.hindawi.com/journals/complexity/2018/7191487/" target="_blank"> Rashidinia et al. 2018 </a>. To estimate this parameter you take inspiration by 
-<a hef="https://www.medrxiv.org/content/10.1101/2020.02.13.20022806v2" target="_blank"> Neher et al. 2018 </a>. 
+<a href="https://www.medrxiv.org/content/10.1101/2020.02.13.20022806v2" target="_blank"> Neher et al. 2018 </a>. 
