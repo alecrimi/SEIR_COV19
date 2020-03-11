@@ -1,6 +1,8 @@
 # SEIR_COV19
 SEIR implementation of forecast epidemics
 
+**<style="color:red">For a model including seasonal factors check the Naherlab page<a href="https://github.com/neherlab/CoV_seasonality" >here.</a> </style>**
+
 The SEIR models an infection on people between four states: susceptible (S), exposed (E), infected (I), and resistant (R). Each of those variables represents the number of people in those groups.  The parameters alpha and beta partially control how fast people move from being susceptible to exposed (alpha), from exposed to infected (beta), and from infected to quarantine (mu1) and hopefully recovered or again susceptible. This model has two additional parameters; one is the background mortality (mu2) which is unaffected by disease-state, while the other is vaccination which is not included at the moment.  
 The SEIR differs from the SIR model in the addition of a latency period. Individuals who are exposed (E) have had contact with an infected person, but are not themselves infectious (the virus is more transmissible when people have symptoms).
  
