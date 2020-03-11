@@ -1,7 +1,7 @@
 # SEIR_COV19
 SEIR implementation of forecast epidemics
 
-<div class="text-red">
+<div  class="text-red mb-2">
 ** For a model including seasonal factors check the Naherlab page<a href="https://github.com/neherlab/CoV_seasonality" >here.</a>**
   </div>
 
